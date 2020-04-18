@@ -1,0 +1,40 @@
+﻿@model ASP.NET_NLayerDesignStudio.BLL.DTO.MasterDTO
+
+@{
+    ViewBag.Title = "DetailsOfMaster";
+}
+
+<div>
+    <h4>Подробная информация о мастере</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearsOfWork)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearsOfWork)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning btn-xs" }) |
+    @Html.ActionLink("Назад", "Index", null, new { @class = "btn btn-danger btn-xs" })
+</p>

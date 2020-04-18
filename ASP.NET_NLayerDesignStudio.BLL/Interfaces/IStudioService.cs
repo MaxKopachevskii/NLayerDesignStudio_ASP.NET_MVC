@@ -1,4 +1,5 @@
 ﻿using ASP.NET_NLayerDesignStudio.BLL.DTO;
+using ASP.NET_NLayerDesignStudio.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,10 @@ namespace ASP.NET_NLayerDesignStudio.BLL.Interfaces
         IEnumerable<ServiceDTO> GetAllServices();
         IEnumerable<MasterDTO> GetAllMasters();
         IEnumerable<ExampleDTO> GetAllExamples();
+        void Edit(ServiceDTO service);
+        void Create(ServiceDTO service);
+        void Delete(int id);
+        void Save();
         void Dispose();
     }
 }
