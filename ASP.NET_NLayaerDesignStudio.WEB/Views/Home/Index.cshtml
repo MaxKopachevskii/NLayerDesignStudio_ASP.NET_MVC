@@ -89,7 +89,7 @@
                         <h3>@item.Name</h3>
                         <p>@item.Description</p>
                         <strong>Цена(за час):</strong>
-                        <p>@item.Price.ToString("c")</p>
+                        <p>@item.Price</p>
                         <p>@Html.ActionLink("Подробнее", "Details", new { id = item.Id }, new { @class = "btn btn-danger" })</p>
                     </div>
                 </div>

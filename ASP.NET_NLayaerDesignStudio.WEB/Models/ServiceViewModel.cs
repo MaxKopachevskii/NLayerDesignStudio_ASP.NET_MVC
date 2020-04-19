@@ -13,7 +13,7 @@ namespace ASP.NET_NLayaerDesignStudio.WEB.Models
 
         public string Description { get; set; }
 
-        public int Price { get; set; }
+        public int? Price { get; set; }
 
         public string Img { get; set; }
 

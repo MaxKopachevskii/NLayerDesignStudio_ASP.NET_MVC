@@ -13,7 +13,7 @@
                 <h3>@Model.Name</h3>
                 <p>@Model.Description</p>
                 <strong>Цена(за час):</strong>
-                <p>@Model.Price.ToString("c")</p>
+                <p>@Model.Price</p>
                 <p>
                     @Html.ActionLink("Информация про мастера", "DetailsOfMaster", new { id = Model.Id }, new { @class = "btn btn-warning btn-xs" })
                     @Html.ActionLink("Назад", "Index", null, new { @class = "btn btn-danger btn-xs" })

@@ -194,8 +194,8 @@
     <Content Include="Views\Home\EditService.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
-    <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\DetailsOfMaster.cshtml" />
+    <Content Include="Views\Home\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

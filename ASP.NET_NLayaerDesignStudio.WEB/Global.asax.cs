@@ -27,6 +27,7 @@ namespace ASP.NET_NLayaerDesignStudio.WEB
             NinjectModule serviceModule = new ServiceModule("DefaultConnection");
             var kernel = new StandardKernel(orderModule, serviceModule);
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
+
         }
     }
 }

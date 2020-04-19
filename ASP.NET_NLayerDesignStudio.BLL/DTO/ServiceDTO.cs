@@ -14,7 +14,7 @@ namespace ASP.NET_NLayerDesignStudio.BLL.DTO
 
         public string Description { get; set; }
 
-        public int Price { get; set; }
+        public int? Price { get; set; }
 
         public string Img { get; set; }
 
